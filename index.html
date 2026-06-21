@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="robots" content="noindex, nofollow">
+<title>Protected &mdash; EPI deliverables</title>
+<style>html,body{background:#fff;color:#1a1a2e;margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.box{max-width:360px;margin:16vh auto;padding:0 20px}h1{font-size:18px;margin:0 0 14px}
+label{display:block;font-size:12px;color:#6b7280;margin:10px 0 3px}
+input{width:100%;box-sizing:border-box;padding:9px 10px;border:1px solid #cbd5e1;border-radius:7px;font-size:15px}
+button{margin-top:16px;width:100%;padding:10px;border:0;border-radius:7px;background:#1d4ed8;color:#fff;font-size:15px;cursor:pointer}
+.err{color:#b91c1c;font-size:13px;margin-top:10px;min-height:18px}</style>
+</head><body>
+<div class="box" id="gate">
+  <h1>EPI deliverables &mdash; protected</h1>
+  <form id="f" autocomplete="off">
+    <label>Username</label><input id="u" autocomplete="username">
+    <label>Password</label><input id="p" type="password" autocomplete="current-password">
+    <button type="submit">Unlock</button>
+    <div class="err" id="e"></div>
+  </form>
+</div>
+<script id="payload" type="application/json">{"salt":"9OOh8piW8vtcRd7rfW/aQQ==","iv":"UDEjRQwReur8Q8t1","iter":250000,"ct":"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"}</script>
+<script>
+const D = JSON.parse(document.getElementById("payload").textContent);
+const dec = new TextDecoder(), encr = new TextEncoder();
+const fromB64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function tryDecrypt(user, pass){
+  const base = await crypto.subtle.importKey("raw", encr.encode(user+"\n"+pass), "PBKDF2", false, ["deriveKey"]);
+  const key = await crypto.subtle.deriveKey({name:"PBKDF2",salt:fromB64(D.salt),iterations:D.iter,hash:"SHA-256"},
+    base, {name:"AES-GCM",length:256}, false, ["decrypt"]);
+  const pt = await crypto.subtle.decrypt({name:"AES-GCM",iv:fromB64(D.iv)}, key, fromB64(D.ct));
+  return dec.decode(pt);
+}
+function render(html){
+  try{ sessionStorage.setItem("epi_u", document.getElementById("u").value||sessionStorage.getItem("epi_u")||"");
+       sessionStorage.setItem("epi_p", document.getElementById("p")? (document.getElementById("p").value||sessionStorage.getItem("epi_p")||"") : sessionStorage.getItem("epi_p")||""); }catch(e){}
+  document.open(); document.write(html); document.close();
+}
+document.getElementById("f").addEventListener("submit", async ev => {
+  ev.preventDefault();
+  const u=document.getElementById("u").value.trim(), p=document.getElementById("p").value;
+  try{ const html=await tryDecrypt(u,p); try{sessionStorage.setItem("epi_u",u);sessionStorage.setItem("epi_p",p);}catch(e){} render(html); }
+  catch(e){ document.getElementById("e").textContent="Wrong username or password."; }
+});
+// auto-unlock within the same browser session (single sign-on across pages)
+(async () => {
+  try{ const u=sessionStorage.getItem("epi_u"), p=sessionStorage.getItem("epi_p");
+    if(u&&p){ const html=await tryDecrypt(u,p); render(html); } }catch(e){}
+})();
+</script>
+</body></html>
