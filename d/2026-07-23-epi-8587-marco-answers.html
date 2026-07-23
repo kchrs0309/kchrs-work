@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light"><meta name="robots" content="noindex, nofollow">
+<title>Protected &mdash; EPI deliverables</title>
+<style>html,body{background:#fff;color:#1a1a2e;margin:0;font:15px/1.5 -apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif}
+.box{max-width:360px;margin:16vh auto;padding:0 20px}h1{font-size:18px;margin:0 0 14px}
+label{display:block;font-size:12px;color:#6b7280;margin:10px 0 3px}
+input{width:100%;box-sizing:border-box;padding:9px 10px;border:1px solid #cbd5e1;border-radius:7px;font-size:15px}
+button{margin-top:16px;width:100%;padding:10px;border:0;border-radius:7px;background:#1d4ed8;color:#fff;font-size:15px;cursor:pointer}
+.err{color:#b91c1c;font-size:13px;margin-top:10px;min-height:18px}</style>
+</head><body>
+<div class="box" id="gate">
+  <h1>EPI deliverables &mdash; protected</h1>
+  <form id="f" autocomplete="off">
+    <label>Username</label><input id="u" autocomplete="username">
+    <label>Password</label><input id="p" type="password" autocomplete="current-password">
+    <button type="submit">Unlock</button>
+    <div class="err" id="e"></div>
+  </form>
+</div>
+<script id="payload" type="application/json">{"salt":"7HMP9oA+11XA7qVelrXEJQ==","iv":"seDJxN++c2TnXR2U","iter":250000,"ct":"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"}</script>
+<script>
+const D = JSON.parse(document.getElementById("payload").textContent);
+const dec = new TextDecoder(), encr = new TextEncoder();
+const fromB64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+async function tryDecrypt(user, pass){
+  const base = await crypto.subtle.importKey("raw", encr.encode(user+"\n"+pass), "PBKDF2", false, ["deriveKey"]);
+  const key = await crypto.subtle.deriveKey({name:"PBKDF2",salt:fromB64(D.salt),iterations:D.iter,hash:"SHA-256"},
+    base, {name:"AES-GCM",length:256}, false, ["decrypt"]);
+  const pt = await crypto.subtle.decrypt({name:"AES-GCM",iv:fromB64(D.iv)}, key, fromB64(D.ct));
+  return dec.decode(pt);
+}
+function render(html){
+  try{ sessionStorage.setItem("epi_u", document.getElementById("u").value||sessionStorage.getItem("epi_u")||"");
+       sessionStorage.setItem("epi_p", document.getElementById("p")? (document.getElementById("p").value||sessionStorage.getItem("epi_p")||"") : sessionStorage.getItem("epi_p")||""); }catch(e){}
+  document.open(); document.write(html); document.close();
+}
+document.getElementById("f").addEventListener("submit", async ev => {
+  ev.preventDefault();
+  const u=document.getElementById("u").value.trim(), p=document.getElementById("p").value;
+  try{ const html=await tryDecrypt(u,p); try{sessionStorage.setItem("epi_u",u);sessionStorage.setItem("epi_p",p);}catch(e){} render(html); }
+  catch(e){ document.getElementById("e").textContent="Wrong username or password."; }
+});
+// auto-unlock within the same browser session (single sign-on across pages)
+(async () => {
+  try{ const u=sessionStorage.getItem("epi_u"), p=sessionStorage.getItem("epi_p");
+    if(u&&p){ const html=await tryDecrypt(u,p); render(html); } }catch(e){}
+})();
+</script>
+</body></html>
